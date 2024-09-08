@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "dependencies": {
-    "kafkajs": "^2.2.4"
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.4"
   }
 }
